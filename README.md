@@ -27,14 +27,14 @@ I want to be able to search for all the notes with a specific tag
 
 ## Domain model: 
 
-Object: Notebook   
-Methods: add_note(note), search(tag) 
-Inst. vars.: @notes []
+* Object: Notebook   
+* Methods: add_note(note), search(tag) 
+* Inst. vars.: @notes []
 
-Object: Note  
-Methods: add_tag(tag), add_content(content) 
-Inst. vars.: @content, @tag
+* Object: Note  
+* Methods: add_tag(tag), add_content(content) 
+* nst. vars.: @content, @tag
 
-Object: Tag  
-Methods:  
-Inst. vars.: @content
+* Object: Tag  
+* Methods:  
+* Inst. vars.: @content

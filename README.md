@@ -25,16 +25,12 @@ So I can find notes on a certain topic
 I want to be able to search for all the notes with a specific tag
 
 
-## Domain model: 
+## Domain model:
 
-* Object: Notebook   
-* Methods: add_note(note), search(tag) 
-* Inst. vars.: @notes []
-
-* Object: Note  
-* Methods: add_tag(tag), add_content(content) 
-* nst. vars.: @content, @tag
-
-* Object: Tag  
-* Methods:  
-* Inst. vars.: @content
+| Object | Methods | Instance variables |
+|----|----|----|
+|Notebook|add_note(note)|@notes []|
+||search(tag)||
+|Note|add_tag(tag)|@content|
+||add_content(content)|@tag|
+|Tag||@content|
